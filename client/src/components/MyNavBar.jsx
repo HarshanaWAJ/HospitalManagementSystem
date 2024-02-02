@@ -36,7 +36,7 @@ export default function MyNavBar() {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
             <Navbar.Brand>
-                <img src={Logo} alt="Logo" style={{height:'80px'}}/>
+                <img src={Logo} alt="Logo" style={{height:'60px'}}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>

@@ -1,4 +1,19 @@
 .home-page {
-    padding-top: 80px;
-    margin-top: 80px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.bg-anim-img {
+    height: 500px;
+    width: auto;
+    transform: scale(1);
+    image-rendering: pixelated;
+}
+
+.home-main-body {
+    display: inline-flex;
+}
+
+.content-1 {
+    width: 800px;
 }

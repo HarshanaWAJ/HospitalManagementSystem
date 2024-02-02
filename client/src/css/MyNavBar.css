@@ -1,11 +1,12 @@
+
 nav.navbar {
     color: #00001C;
     position:fixed;
     width: 100%;
     top: 0;
-    /* z-index: 9999; */
+    z-index: 9999;
     transition:  0.32s ease-in-out;
-    /* display: flex; */
+    display: flex; 
     align-items: center;
     background-color: #66B2FF;
   }
