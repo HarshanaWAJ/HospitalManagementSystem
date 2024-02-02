@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <section id='home' className='home'>
       <Container className='home-page'>
-        This is The home Page
+        This is The Home Page
       </Container>
     </section>
   )
