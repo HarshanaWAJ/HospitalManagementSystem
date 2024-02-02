@@ -1,0 +1,14 @@
+.admin-dashboard {
+    margin: 20px;
+}
+
+.admin-dashboard .dashboard-header h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboard-body .form {
+    display: 'flex'
+}
