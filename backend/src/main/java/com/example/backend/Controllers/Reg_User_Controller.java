@@ -40,16 +40,15 @@ public class Reg_User_Controller {
         }
     }
 
-    @PutMapping("/update-user")
-    public ResponseEntity<String> updateUserRole(@RequestBody Reg_User_DTO regUserDto)
+    @PutMapping("/update-reg-user")
+    public ResponseEntity<String> updateRegUser(@RequestBody Reg_User_DTO regUserDto)
     {
         try {
-            Reg_User_DTO savedREgUserDto = regUserServices.updateRegUser(regUserDto);
-            return ResponseEntity.status(HttpStatus.CREATED).body("User Role Created");
+            Reg_User_DTO savedUserRoleDto = regUserServices.updateRegUser(regUserDto);
+            return ResponseEntity.status(HttpStatus.CREATED).body("Registered User Details Updated Successfully!");
         }  catch (Exception e) {
             e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("Failed to create Role");
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("Registered User Details Update Failed!");
         }
     }
-
 }

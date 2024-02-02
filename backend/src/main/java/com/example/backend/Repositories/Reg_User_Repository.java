@@ -1,11 +1,14 @@
 package com.example.backend.Repositories;
 
+import com.example.backend.DTO.Reg_User_DTO;
 import com.example.backend.Entities.Reg_User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface Reg_User_Repository extends JpaRepository<Reg_User, Integer> {
 
@@ -15,5 +18,7 @@ public interface Reg_User_Repository extends JpaRepository<Reg_User, Integer> {
             "FROM reg_users u\n" +
             "INNER JOIN user_roles ON u.role_id = user_roles.role_id;", nativeQuery = true)
     List<Object[]> getUserList();
+
+
 
 }

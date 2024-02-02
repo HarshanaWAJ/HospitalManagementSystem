@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import '../css/home_page.css';
+import { Container } from 'react-bootstrap';
 
 export default function HomePage() {
   return (
-    <div className="home-body">
-       This is home page.
-    </div>
+    <section id='home' className='home'>
+      <Container className='home-page'>
+        This is The home Page
+      </Container>
+    </section>
   )
 }
