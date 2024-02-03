@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import {BrowserRouter as Router} from "react-router-dom";
 
-import Logo from '../assets/images/icons/MediCare.ico';
+import Logo from '../assets/images/icons/Icon.ico';
 import '../css/MyNavBar.css';
 import Button from '@mui/material/Button';
 import Person2Icon from '@mui/icons-material/Person2';
@@ -36,7 +36,7 @@ export default function MyNavBar() {
         <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
             <Container>
             <Navbar.Brand>
-                <img src={Logo} alt="Logo" style={{height:'60px'}}/>
+                <img src={Logo} alt="Logo" style={{height:'50px'}}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
                 <span className="navbar-toggler-icon"></span>

@@ -4,6 +4,8 @@
 }
 
 .home-page h3 {
+    align-self: center;
+    align-items: center;
     padding: 20px;
     padding-left: -50px !important;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -57,5 +59,40 @@
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
+}
+
+.home-main-content-3 {
+    padding-top: 50px;
+    display: block;
+    justify-content: center;
+}
+
+.why-medi-care-card {
+    display: flex;
+    justify-content: center; 
+}
+
+.why-medi-care-card h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.content-card {
+    display: flexbox;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.content-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: x-large;
 }
 
