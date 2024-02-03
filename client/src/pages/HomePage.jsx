@@ -7,6 +7,7 @@ import Bgimg from '../assets/images/imgs/bg-img-1.avif';
 import Logo from '../assets/images/icons/MediCare.ico';
 
 export default function HomePage() {
+
   return (
     <section id='home' className='home'>
       <Container className='home-page'>
@@ -85,7 +86,7 @@ export default function HomePage() {
                 <Card.Body className="text-center">
                   <Card.Title className='card-title'>Efficiency and Accessibility</Card.Title>
                   <hr/>
-                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px'}}>
+                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px', letterSpacing:'2px'}}>
                   Madi Care ensures that managing your health is both efficient and accessible. 
                   Our user-friendly interface puts you in control of your healthcare journey
                   </Card.Text>
@@ -113,7 +114,7 @@ export default function HomePage() {
                 <Card.Body className="text-center">
                   <Card.Title className='card-title'>Security and Privacy</Card.Title>
                   <hr/>
-                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px'}}>
+                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px', letterSpacing:'2px'}}>
                   Your health information is our priority. 
                   Madi Care employs advanced security measures to protect your data, 
                   ensuring confidentiality and privacy.
@@ -140,7 +141,7 @@ export default function HomePage() {
                 <Card.Body className="text-center">
                   <Card.Title className='card-title'>24/7 Support</Card.Title>
                   <hr/>
-                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px'}}>
+                  <Card.Text style={{fontFamily:'Times New Roman', paddingTop:'10px', letterSpacing:'2px'}}>
                   Our support team is available around the clock to address your queries and provide assistance. 
                   Your satisfaction is our commitment.
                   </Card.Text>
