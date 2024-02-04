@@ -4,6 +4,7 @@ import MyNavBar from './components/MyNavBar';
 import AdminDashboard from './pages/AdminDashboard';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MyNavBar/>
       <HomePage/>
       <AboutPage/>
+      <Contact/>
       <AdminDashboard/>
     </div>
   );
