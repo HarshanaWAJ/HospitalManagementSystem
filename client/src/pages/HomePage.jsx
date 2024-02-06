@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/home_page.css';
 import { Container} from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
+import {motion}  from 'framer-motion';
 
 import Bgimg from '../assets/images/imgs/bg-img-1.avif';
 import Logo from '../assets/images/icons/MediCare.ico';
@@ -9,7 +10,12 @@ import Logo from '../assets/images/icons/MediCare.ico';
 export default function HomePage() {
 
   return (
-    <section id='home' className='home'>
+    <motion.section id='home' className='home'
+      initial={{ opacity: 0, scale: 0.5 }} 
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.5 }} 
+      transition={{ duration: 0.5 }} 
+    >
       <Container className='home-page'>
         <h3>Welcome to Medi Care</h3>
           <Container className='home-main-content-1'>
@@ -150,7 +156,7 @@ export default function HomePage() {
             </Container>
           </Container>
       </Container>
-    </section>
+    </motion.section>
   )
 }
  

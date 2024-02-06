@@ -1,0 +1,103 @@
+.footer-main {
+  margin-top: 50px;
+  background-color: #66B2FF;
+  text-align: center;
+}
+
+.content {
+  background-color: #66B2FF;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-1, .section-2, .section-3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-1 {
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.address {
+  margin-left: 10px;
+}
+
+.address h3, h5{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.address h3 {
+  font-size: x-large;
+  font-weight: 600;
+}
+.address h5 {
+  font-size: large;
+  font-weight: 400;
+}
+
+.address {
+  margin-left: 10px;
+}
+
+.section-2 {
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tell-des {
+  padding: 10px;
+  display: flex;
+}
+
+.email-des {
+  padding: 10px;
+  display: flex;
+}
+
+.fax-des {
+  padding: 10px;
+  display: flex;
+}
+
+.tell {
+  padding-left: 20px;
+  display: flex;
+}
+
+.email{
+  padding-left: 20px;
+  display: flex;
+}
+
+.fax{
+  padding-left: 20px;
+  display: flex;
+}
+
+.section-3 {
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px;
+  padding: 10px;
+}
+
+.icon-button:hover {
+  background-color: azure !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  transition: background-color 1s, box-shadow 0.5s;
+}
+
