@@ -1,0 +1,15 @@
+.contact {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.contact-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.contact-content {
+    display: flex;
+}
