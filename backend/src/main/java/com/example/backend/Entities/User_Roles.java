@@ -32,7 +32,5 @@ public class User_Roles {
     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss"); //Not a Column
     String formattedDate = formatter.format(actualDate);
 
-    @OneToMany(mappedBy = "userRole", cascade = CascadeType.ALL)
-    private List<Reg_User> regUserList;
 
 }
