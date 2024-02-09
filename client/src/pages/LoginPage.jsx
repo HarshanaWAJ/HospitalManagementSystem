@@ -83,7 +83,7 @@ const defaultTheme = createTheme();
               id="email"
               label="Email Address"
               name="email"
-              autoComplete="email"
+              placeholder="MDUS-USERNAME"
               autoFocus
             />
             <TextField

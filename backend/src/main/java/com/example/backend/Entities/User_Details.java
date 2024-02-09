@@ -12,7 +12,7 @@ import lombok.*;
 @Transactional
 @Entity
 @Table(name = "user_details")
-public class UserDetails {
+public class User_Details {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -25,4 +25,5 @@ public class UserDetails {
     @Column(unique = true)
     private String tell;
     private String address;
+    private String user_full_name;
 }

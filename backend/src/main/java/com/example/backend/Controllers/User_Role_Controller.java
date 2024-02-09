@@ -51,10 +51,10 @@ public class User_Role_Controller {
     {
         try {
             User_Role_DTO savedUserRoleDto = userRoleService.updateUserRole(userRoleDto);
-            return ResponseEntity.status(HttpStatus.CREATED).body("User Role Created");
+            return ResponseEntity.status(HttpStatus.CREATED).body("User Role Updated");
         }  catch (Exception e) {
             e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.CONFLICT).body("Failed to create Role");
+            return ResponseEntity.status(HttpStatus.CONFLICT).body("Failed to Update Role");
         }
     }
 
